@@ -53,6 +53,7 @@ git clone https://github.com/nirajkumar1002/household-services-app.git
 cd household-services-app
 ```
 ### 2️⃣ Backend Setup
+```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate  # Mac/Linux
@@ -61,15 +62,17 @@ venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 python app.py
-
+```
 ### 3️⃣ Start Celery Worker (in a new terminal)
+```bash
 celery -A celery_worker.celery worker --loglevel=info
-
+```
 ### 4️⃣ Frontend Setup
+```bash
 cd frontend
 npm install
 npm run serve
-
+```
 📌 Notes
 The backend runs on http://localhost:5000
 
