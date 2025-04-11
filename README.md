@@ -52,7 +52,7 @@ project/ ├── frontend/ # Vue3 frontend ├── backend/ # Flask backend 
 git clone https://github.com/nirajkumar1002/household-services-app.git
 cd household-services-app
 
-2️⃣ Backend Setup
+### 2️⃣ Backend Setup
 cd backend
 python3 -m venv venv
 source venv/bin/activate  # Mac/Linux
@@ -62,10 +62,10 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 python app.py
 
-3️⃣ Start Celery Worker (in a new terminal)
+### 3️⃣ Start Celery Worker (in a new terminal)
 celery -A celery_worker.celery worker --loglevel=info
 
-4️⃣ Frontend Setup
+### 4️⃣ Frontend Setup
 cd frontend
 npm install
 npm run serve
