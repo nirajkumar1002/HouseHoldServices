@@ -51,7 +51,7 @@ project/ ├── frontend/ # Vue3 frontend ├── backend/ # Flask backend 
 ```bash
 git clone https://github.com/nirajkumar1002/household-services-app.git
 cd household-services-app
-
+```
 ### 2️⃣ Backend Setup
 cd backend
 python3 -m venv venv
